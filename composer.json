@@ -1,0 +1,23 @@
+{
+    "name": "aviwar/doctrine-encrypt",
+    "type": "library",
+    "description": "Package encrypts and decrypts Doctrine fields through life cycle events.",
+    "keywords": ["doctrine", "aes256", "openssl", "encrypt", "decrypt"],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1",
+        "doctrine/orm": "~2.5",
+        "ext-openssl": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "DoctrineEncrypt": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Venkateshwaran Anantharaj",
+            "email": "preneurvenkatesh@gmail.com"
+        }
+    ]
+}
